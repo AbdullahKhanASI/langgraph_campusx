@@ -35,5 +35,4 @@ if user_input:
                 stream_mode= 'messages'
             )
         )
-
-    st.session_state['message_history'].append({'role': 'assistant', 'content': ai_message})
+        st.session_state['message_history'].append({'role': 'assistant', 'content': ai_message})
